@@ -12,7 +12,7 @@ Enquiries to jon.kane@msdl.net
 
 class OSdb extends SQLite3{
 	function __construct(){
-		$this->open('osp.sqlite');
+		$this->open('os.s3db');
 	}
 }
 
