@@ -85,7 +85,7 @@ Enquiries to jon.kane@msdl.net
 <?php 
 class OSdb extends SQLite3{
 	function __construct(){
-		$this->open('inc/osp.sqlite');
+		$this->open('inc/os.s3db');
 	}
 }
 $db = new OSdb();
